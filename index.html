@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Start of Container for Movie Posters -->
+    <div class="container">
+        <button onclick="stopSong()">Stop Song</button>
+        <!--TODO Add onclick event listener-->
+        <div class="gallery">
+
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="clickedEvent(this.id)">
+                <img class="gallery__img" src="images/inception.jpg" alt="Blowin in the wind - Bob Dylan">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="clickedEvent(this.id)">
+                <img class="gallery__img" src="images/joker.jpg" alt="Day and Night - Kid Cudi">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="clickedEvent(this.id)">
+                <img class="gallery__img" src="images/wow.jpg" alt="Harvest Moon - Neil Youg">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="clickedEvent(this.id)">
+                <img class="gallery__img" src="images/o brother.jpg" alt="Fame - David Bowie">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="clickedEvent(this.id)">
+                <img class="gallery__img" src="images/step_bros.jpg" alt="Never gonna give you up - Rick Astley">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="clickedEvent(this.id)">
+                <img class="gallery__img" src="images/alien.jpg" alt="Big Poppa - The Notorious B.I.G.">
+            </figure>
+
+        </div>
+    </div>
+</body>
+</html>
